@@ -1,0 +1,15 @@
+p
+{
+	color: blue;
+}
+
+/*Nouvelle règle si la fenêtre fait au plus 1024px*/
+@media screen and (max-width: 1024px)
+{
+	p
+	{
+		color: red;
+		background-color: black;
+		font-size: 1.2em;
+	}
+}
